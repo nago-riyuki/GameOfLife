@@ -1,8 +1,8 @@
 <?php
 function createGrid(){
-    for ($i = 1; $i <= 25; ++$i) {
+    for ($i = 1; $i <= 10; ++$i) {
       $height = [];
-      for ($j = 1; $j <= 50; ++$j) {
+      for ($j = 1; $j <= 10; ++$j) {
         $height[$j] = 0;
       }
       $this->grid[$i] = $height;
